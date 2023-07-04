@@ -25,11 +25,11 @@
         {
           "name": "buychannel-1.0.7.aar",
           "url": "buychannel-1.0.7.aar",
-          "size": 38174,
-          "sha512": "497e3e33614abaaaa5cebcc06a8c646f92b61030b693f6f470841cc2dd1d87e47be13c65f12a035df5baf031c464b3206cdcbb6d18628f8489e913fc416e791c",
-          "sha256": "60202b19260b9d100fa9d031a6c0a42138014a82e822f7e681b889082a84944c",
-          "sha1": "de371c740f7d79584b2f14d8a10824eeac3067c3",
-          "md5": "b7f42c2d50daf172ca17c7640fd6cb72"
+          "size": 39881,
+          "sha512": "4d06ac590b2b89923ac8a0febe096f1c083fce90ffbcec001d167eb20a4676165d0d08f6dc97ebbb7823b192ae1a12107bd0a1d1427317f52662b974a656d35e",
+          "sha256": "db8e10c530b96d5d562caabc63af53098b6c629eafc20465a1fdab61c68393f5",
+          "sha1": "c3bd305da48dc38b91904ac1fbebbc146cfd43c0",
+          "md5": "1beb3680f753ee3ba0633075e1e3a060"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "buychannel-1.0.7.aar",
           "url": "buychannel-1.0.7.aar",
-          "size": 38174,
-          "sha512": "497e3e33614abaaaa5cebcc06a8c646f92b61030b693f6f470841cc2dd1d87e47be13c65f12a035df5baf031c464b3206cdcbb6d18628f8489e913fc416e791c",
-          "sha256": "60202b19260b9d100fa9d031a6c0a42138014a82e822f7e681b889082a84944c",
-          "sha1": "de371c740f7d79584b2f14d8a10824eeac3067c3",
-          "md5": "b7f42c2d50daf172ca17c7640fd6cb72"
+          "size": 39881,
+          "sha512": "4d06ac590b2b89923ac8a0febe096f1c083fce90ffbcec001d167eb20a4676165d0d08f6dc97ebbb7823b192ae1a12107bd0a1d1427317f52662b974a656d35e",
+          "sha256": "db8e10c530b96d5d562caabc63af53098b6c629eafc20465a1fdab61c68393f5",
+          "sha1": "c3bd305da48dc38b91904ac1fbebbc146cfd43c0",
+          "md5": "1beb3680f753ee3ba0633075e1e3a060"
         }
       ]
     }
