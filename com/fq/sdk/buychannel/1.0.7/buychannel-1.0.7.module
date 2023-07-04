@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fq.sdk",
+    "module": "buychannel",
+    "version": "1.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "buychannel-1.0.7.aar",
+          "url": "buychannel-1.0.7.aar",
+          "size": 38174,
+          "sha512": "497e3e33614abaaaa5cebcc06a8c646f92b61030b693f6f470841cc2dd1d87e47be13c65f12a035df5baf031c464b3206cdcbb6d18628f8489e913fc416e791c",
+          "sha256": "60202b19260b9d100fa9d031a6c0a42138014a82e822f7e681b889082a84944c",
+          "sha1": "de371c740f7d79584b2f14d8a10824eeac3067c3",
+          "md5": "b7f42c2d50daf172ca17c7640fd6cb72"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.appsflyer",
+          "module": "af-android-sdk",
+          "version": {
+            "requires": "6.12.1"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buychannel-1.0.7.aar",
+          "url": "buychannel-1.0.7.aar",
+          "size": 38174,
+          "sha512": "497e3e33614abaaaa5cebcc06a8c646f92b61030b693f6f470841cc2dd1d87e47be13c65f12a035df5baf031c464b3206cdcbb6d18628f8489e913fc416e791c",
+          "sha256": "60202b19260b9d100fa9d031a6c0a42138014a82e822f7e681b889082a84944c",
+          "sha1": "de371c740f7d79584b2f14d8a10824eeac3067c3",
+          "md5": "b7f42c2d50daf172ca17c7640fd6cb72"
+        }
+      ]
+    }
+  ]
+}
