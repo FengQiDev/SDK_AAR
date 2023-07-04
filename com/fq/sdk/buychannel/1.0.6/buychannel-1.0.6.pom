@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fq.sdk</groupId>
   <artifactId>buychannel</artifactId>
-  <version>1.0.5.1</version>
+  <version>1.0.6</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -39,7 +39,7 @@
     <dependency>
       <groupId>com.appsflyer</groupId>
       <artifactId>af-android-sdk</artifactId>
-      <version>5.4.3</version>
+      <version>6.12.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

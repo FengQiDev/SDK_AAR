@@ -3,7 +3,7 @@
   "component": {
     "group": "com.fq.sdk",
     "module": "buychannel",
-    "version": "1.0.5.1",
+    "version": "1.0.6",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -23,13 +23,13 @@
       },
       "files": [
         {
-          "name": "buychannel-1.0.5.1.aar",
-          "url": "buychannel-1.0.5.1.aar",
-          "size": 32944,
-          "sha512": "eb3d73c0d29f4b7f0bad8c2dd2df031c687fad4ed33995e79c51028aa75855fcf127ae0f9a9915c7b2aad0958a73d3bdf6d461ed18fb53a29462c8126bd51cec",
-          "sha256": "8725bce3938fa385623d3ab201103b8ceb91678baf6a32f6a195014afaae4dc2",
-          "sha1": "6f095423beacc10cf66202954238f56d2d4f0410",
-          "md5": "a3076d41dc8fb90d7ce5418777151f2e"
+          "name": "buychannel-1.0.6.aar",
+          "url": "buychannel-1.0.6.aar",
+          "size": 35682,
+          "sha512": "9518c61514207b60bc0e444e2b289de9d434b4560119f8e555bcbfdac7a0c75260dd049147c205c46de839782523d9f979fe7745ddba587fb58321c2c44d2a22",
+          "sha256": "0f837f7fd813409a92b7a3910153b56ceff016a3333c74e815892780f3c67700",
+          "sha1": "c1ab06c9d7fa37461e0a7982fc3cb734b06f9caf",
+          "md5": "b51a2be8beb43fe1b79bbfec18df2eb4"
         }
       ]
     },
@@ -73,7 +73,7 @@
           "group": "com.appsflyer",
           "module": "af-android-sdk",
           "version": {
-            "requires": "5.4.3"
+            "requires": "6.12.1"
           }
         },
         {
@@ -86,13 +86,13 @@
       ],
       "files": [
         {
-          "name": "buychannel-1.0.5.1.aar",
-          "url": "buychannel-1.0.5.1.aar",
-          "size": 32944,
-          "sha512": "eb3d73c0d29f4b7f0bad8c2dd2df031c687fad4ed33995e79c51028aa75855fcf127ae0f9a9915c7b2aad0958a73d3bdf6d461ed18fb53a29462c8126bd51cec",
-          "sha256": "8725bce3938fa385623d3ab201103b8ceb91678baf6a32f6a195014afaae4dc2",
-          "sha1": "6f095423beacc10cf66202954238f56d2d4f0410",
-          "md5": "a3076d41dc8fb90d7ce5418777151f2e"
+          "name": "buychannel-1.0.6.aar",
+          "url": "buychannel-1.0.6.aar",
+          "size": 35682,
+          "sha512": "9518c61514207b60bc0e444e2b289de9d434b4560119f8e555bcbfdac7a0c75260dd049147c205c46de839782523d9f979fe7745ddba587fb58321c2c44d2a22",
+          "sha256": "0f837f7fd813409a92b7a3910153b56ceff016a3333c74e815892780f3c67700",
+          "sha1": "c1ab06c9d7fa37461e0a7982fc3cb734b06f9caf",
+          "md5": "b51a2be8beb43fe1b79bbfec18df2eb4"
         }
       ]
     }
