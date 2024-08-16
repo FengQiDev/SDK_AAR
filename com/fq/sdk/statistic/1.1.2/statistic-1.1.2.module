@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fq.sdk",
+    "module": "statistic",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "statistic-1.1.2.aar",
+          "url": "statistic-1.1.2.aar",
+          "size": 236675,
+          "sha512": "602219cbe7c400c1240aa5f8e0f18c0ad2fc529a6744d0354e3cc412fa9cec27e3ddf4f9b0c0179375a1d0b41317e0dd1b7052f4164c85ee4c4b12094ab3e183",
+          "sha256": "37d4554d2f5534b2c4ca23e9a1f37af8d5481899cf96398e98310cbe893ddcaa",
+          "sha1": "66d4c95a695ca8600b9e8d3c4fb51e151a59308b",
+          "md5": "6600f98583c3f0ce1fe00d114b47451f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "statistic-1.1.2.aar",
+          "url": "statistic-1.1.2.aar",
+          "size": 236675,
+          "sha512": "602219cbe7c400c1240aa5f8e0f18c0ad2fc529a6744d0354e3cc412fa9cec27e3ddf4f9b0c0179375a1d0b41317e0dd1b7052f4164c85ee4c4b12094ab3e183",
+          "sha256": "37d4554d2f5534b2c4ca23e9a1f37af8d5481899cf96398e98310cbe893ddcaa",
+          "sha1": "66d4c95a695ca8600b9e8d3c4fb51e151a59308b",
+          "md5": "6600f98583c3f0ce1fe00d114b47451f"
+        }
+      ]
+    }
+  ]
+}
