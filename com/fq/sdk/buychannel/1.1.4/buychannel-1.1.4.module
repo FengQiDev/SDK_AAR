@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fq.sdk",
+    "module": "buychannel",
+    "version": "1.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "buychannel-1.1.4.aar",
+          "url": "buychannel-1.1.4.aar",
+          "size": 44139,
+          "sha512": "5ccfc2f93c327d1d81b4fbe05ad16aa0b768aa2488c9a47e4d33cb918ea4a34c2b73cd5681b9b89ac00994f3d499824b7af0a5048c814086a6922e4f54f87638",
+          "sha256": "371eb0a3ebbe38c435b9f12373f3d6b5ee65416730ef818e581dc6be976785b5",
+          "sha1": "1306a4952b2cbf1108f8520bc1ea0c2feae398d5",
+          "md5": "065c9f7b03fc1e65c79fd11caad530fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          },
+          "excludes": [
+            {
+              "group": "com.android.support",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.appsflyer",
+          "module": "af-android-sdk",
+          "version": {
+            "requires": "6.12.1"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "buychannel-1.1.4.aar",
+          "url": "buychannel-1.1.4.aar",
+          "size": 44139,
+          "sha512": "5ccfc2f93c327d1d81b4fbe05ad16aa0b768aa2488c9a47e4d33cb918ea4a34c2b73cd5681b9b89ac00994f3d499824b7af0a5048c814086a6922e4f54f87638",
+          "sha256": "371eb0a3ebbe38c435b9f12373f3d6b5ee65416730ef818e581dc6be976785b5",
+          "sha1": "1306a4952b2cbf1108f8520bc1ea0c2feae398d5",
+          "md5": "065c9f7b03fc1e65c79fd11caad530fb"
+        }
+      ]
+    }
+  ]
+}
